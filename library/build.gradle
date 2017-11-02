@@ -19,7 +19,7 @@ android {
             stl "gnustl_shared"
             abiFilters = []
             abiFilters 'x86', 'x86_64', 'armeabi', 'armeabi-v7a', 'arm64-v8a'
-            ldLibs "log"
+            ldLibs "log", "GLESv2", "jnigraphics"
         }
     }
 
